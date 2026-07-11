@@ -46,10 +46,30 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-start').addEventListener('click', startTest);
     document.getElementById('flashcard').addEventListener('click', flipCard);
     
-    // Bắt sự kiện click vào nút loa
     document.getElementById('btn-speak').addEventListener('click', (e) => {
-        e.stopPropagation(); // Lệnh này giúp khi bấm vào loa sẽ không bị lật thẻ (flip card)
+        e.stopPropagation(); 
         speakWord();
+    });
+
+    // LẮNG NGHE PHÍM CÁCH (SPACE)
+    document.addEventListener('keydown', (e) => {
+        // Chỉ chạy khi màn hình Test đang hiện
+        if (document.getElementById('test-view-container').style.display === 'block') {
+            if (e.code === 'Space' || e.key === ' ') {
+                e.preventDefault(); // Chặn hành vi tự động cuộn trang web xuống
+                
+                let meaningDiv = document.getElementById('word-vi');
+                // Nếu thẻ đang úp (chưa hiện nghĩa) -> Bấm lần 1
+                if (meaningDiv.style.display === 'none' || meaningDiv.style.display === '') {
+                    flipCard();
+                    speakWord(); // Tự động đọc
+                } 
+                // Nếu thẻ đã lật (hiện nghĩa rồi) -> Bấm lần 2
+                else {
+                    markAnswer(true); // Tự động chấm CORRECT
+                }
+            }
+        }
     });
 
     document.getElementById('btn-correct').addEventListener('click', () => markAnswer(true));
@@ -362,22 +382,22 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
 function speakWord() {
     if (!currentWord || !currentWord.en) return;
     
-    // Lọc bỏ các ký tự trong ngoặc đơn như (n), (v)
-    let textToRead = currentWord.en.replace(/[\(\[].*?[\)\]]/g, '').trim();
+    // 1. Lọc bỏ các ký tự trong ngoặc đơn như (n), (v)
+    // 2. Lọc bỏ các dấu "=" (thay bằng khoảng trắng để không đọc chữ equal)
+    let textToRead = currentWord.en.replace(/[\(\[].*?[\)\]]/g, '').replace(/=/g, ' ').trim();
     let utterance = new SpeechSynthesisUtterance(textToRead);
     
-    // Lấy danh sách giọng đọc có sẵn trong máy/trình duyệt
     let voices = window.speechSynthesis.getVoices();
     
-    // Ưu tiên 1: Giọng Google (trên Chrome)
-    // Ưu tiên 2: Giọng Natural (trên Edge)
-    // Ưu tiên 3: Giọng tiếng Anh chuẩn của máy
-    let bestVoice = voices.find(v => v.name.includes('Google US English')) 
-                 || voices.find(v => v.name.includes('Natural') && v.lang.includes('en'))
-                 || voices.find(v => v.lang === 'en-US');
+    // Ưu tiên các giọng NAM (Male) tiếng Anh của Google hoặc Microsoft
+    let maleVoice = voices.find(v => v.lang.includes('en') && v.name.includes('Male')) 
+                 || voices.find(v => v.lang.includes('en') && v.name.includes('David'))
+                 || voices.find(v => v.lang.includes('en') && v.name.includes('Guy'))
+                 || voices.find(v => v.lang.includes('en-GB')) // Nếu ko có giọng nam rành mạch, lấy giọng Anh-Anh nghe cũng trầm hơn
+                 || voices.find(v => v.lang === 'en-US');      // Dự phòng cuối cùng
                  
-    if (bestVoice) {
-        utterance.voice = bestVoice;
+    if (maleVoice) {
+        utterance.voice = maleVoice;
     } else {
         utterance.lang = 'en-US';
     }
