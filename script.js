@@ -7,6 +7,7 @@ let availableWords = [];
 let currentWord = null;
 let maxWordsPerStudent = 50;
 let currentUserRole = null; // Biến lưu trữ vai trò (teacher/student)
+let actionHistory = []; // Biến lưu lịch sử để làm nút BACK
 
 document.addEventListener('DOMContentLoaded', () => {
     // 0. GẮN SỰ KIỆN CHO MÀN HÌNH CHỌN VAI TRÒ VÀ NÚT SIGN OUT
@@ -72,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    document.getElementById('btn-back').addEventListener('click', goBack);
     document.getElementById('btn-correct').addEventListener('click', () => markAnswer(true));
     document.getElementById('btn-wrong').addEventListener('click', () => markAnswer(false));
     document.getElementById('btn-skip').addEventListener('click', skipWord);
@@ -300,16 +302,15 @@ function flipCard() {
 function skipWord() {
     if(!currentWord) return;
     
-    // Nếu rổ từ vựng trống thì nạp lại
+    // Lưu vào lịch sử trước khi đổi từ
+    actionHistory.push({ word: currentWord, studentIndex: currentStudentIndex, action: 'skip' });
+
     if (availableWords.length === 0) {
         availableWords = [...eligibleWords];
         shuffleArray(availableWords);
     }
     
-    // Bốc từ mới cho sinh viên hiện tại (không cộng/trừ điểm)
     currentWord = availableWords.pop();
-
-    // Hiển thị từ mới lên thẻ
     document.getElementById('word-en').innerText = currentWord.en;
     document.getElementById('word-vi').innerText = currentWord.vi;
     document.getElementById('word-vi').style.display = 'none';
@@ -317,6 +318,10 @@ function skipWord() {
 
 function markAnswer(isCorrect) {
     if(!currentWord) return;
+    
+    // Lưu vào lịch sử trước khi qua từ
+    actionHistory.push({ word: currentWord, studentIndex: currentStudentIndex, action: isCorrect ? 'correct' : 'wrong' });
+
     let student = students[currentStudentIndex];
 
     if (isCorrect) {
