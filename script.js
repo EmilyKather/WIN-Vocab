@@ -352,15 +352,36 @@ function endTest() {
     document.getElementById('setup-view').style.display = 'block';
     document.getElementById('test-view-container').style.display = 'none';
 }
-// --- TÍNH NĂNG ĐỌC TỪ VỰNG (WEB SPEECH API) ---
+// Tải sẵn danh sách giọng đọc của trình duyệt để không bị delay
+window.speechSynthesis.getVoices();
+if (speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+}
+
+// --- TÍNH NĂNG ĐỌC TỪ VỰNG (WEB SPEECH API - BẢN ÉP GIỌNG XỊN) ---
 function speakWord() {
     if (!currentWord || !currentWord.en) return;
     
-    // Lọc bỏ các ký tự trong ngoặc đơn như (n), (v) để máy đọc mượt mà chữ chính
+    // Lọc bỏ các ký tự trong ngoặc đơn như (n), (v)
     let textToRead = currentWord.en.replace(/[\(\[].*?[\)\]]/g, '').trim();
-    
     let utterance = new SpeechSynthesisUtterance(textToRead);
-    utterance.lang = 'en-US'; 
+    
+    // Lấy danh sách giọng đọc có sẵn trong máy/trình duyệt
+    let voices = window.speechSynthesis.getVoices();
+    
+    // Ưu tiên 1: Giọng Google (trên Chrome)
+    // Ưu tiên 2: Giọng Natural (trên Edge)
+    // Ưu tiên 3: Giọng tiếng Anh chuẩn của máy
+    let bestVoice = voices.find(v => v.name.includes('Google US English')) 
+                 || voices.find(v => v.name.includes('Natural') && v.lang.includes('en'))
+                 || voices.find(v => v.lang === 'en-US');
+                 
+    if (bestVoice) {
+        utterance.voice = bestVoice;
+    } else {
+        utterance.lang = 'en-US';
+    }
+    
     utterance.rate = 0.9;     
     
     window.speechSynthesis.speak(utterance);
