@@ -356,12 +356,12 @@ function endTest() {
 function speakWord() {
     if (!currentWord || !currentWord.en) return;
     
-    // Hủy các giọng đọc cũ đang chờ để tránh bị dội âm nếu bấm liên tục
-    window.speechSynthesis.cancel();
+    // Lọc bỏ các ký tự trong ngoặc đơn như (n), (v) để máy đọc mượt mà chữ chính
+    let textToRead = currentWord.en.replace(/[\(\[].*?[\)\]]/g, '').trim();
     
-    let utterance = new SpeechSynthesisUtterance(currentWord.en);
-    utterance.lang = 'en-US'; // Giọng tiếng Anh (Mỹ)
-    utterance.rate = 0.9;     // Tốc độ đọc (1.0 là bình thường, 0.9 chậm lại một chút cho dễ nghe)
+    let utterance = new SpeechSynthesisUtterance(textToRead);
+    utterance.lang = 'en-US'; 
+    utterance.rate = 0.9;     
     
     window.speechSynthesis.speak(utterance);
 }
