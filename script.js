@@ -73,9 +73,13 @@ function selectRole(role) {
         // Ẩn UI chọn số lượng học viên và mặc định gán = 1 để code cũ không bị lỗi
         document.getElementById('group-num-students').style.display = 'none';
         document.getElementById('num-students').value = 1;
+        // Đổi chữ hiển thị thành của học viên
+        document.getElementById('lbl-words').innerText = 'Số từ vựng muốn ôn:';
     } else {
         // Nếu là giáo viên thì hiện đầy đủ
         document.getElementById('group-num-students').style.display = 'block';
+        // Đổi chữ hiển thị thành của giáo viên
+        document.getElementById('lbl-words').innerText = 'Số từ vựng muốn kiểm:';
     }
 }
 
