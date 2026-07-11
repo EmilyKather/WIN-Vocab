@@ -383,8 +383,8 @@ function speakWord() {
     if (!currentWord || !currentWord.en) return;
     
     // 1. Lọc bỏ các ký tự trong ngoặc đơn như (n), (v)
-    // 2. Lọc bỏ các dấu "=" (thay bằng khoảng trắng để không đọc chữ equal)
-    let textToRead = currentWord.en.replace(/[\(\[].*?[\)\]]/g, '').replace(/=/g, ' ').trim();
+    // 2. Lọc bỏ các dấu "=" (thay bằng dấu phẩy theo đúng yêu cầu)
+    let textToRead = currentWord.en.replace(/[\(\[].*?[\)\]]/g, '').replace(/=/g, ',').trim();
     let utterance = new SpeechSynthesisUtterance(textToRead);
     
     let voices = window.speechSynthesis.getVoices();
