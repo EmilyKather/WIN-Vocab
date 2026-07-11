@@ -52,6 +52,9 @@
 
         /* Nút Sign Out Mới */
 .btn-signout { display: none; position: fixed; top: 20px; right: 20px; background: #DC2626; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; border: none; cursor: pointer; z-index: 1000; font-size: 16px; width: auto; box-shadow: 0 4px 6px rgba(220, 38, 38, 0.3); transition: 0.2s;}
+    /* Nút loa mới nằm ngoài */
+        .btn-sound { width: 70px !important; height: 70px !important; padding: 0 !important; margin: 0 !important; border-radius: 50% !important; background: #EEF2FF; border: 2px solid #818CF8; color: #4F46E5; display: flex; justify-content: center; align-items: center; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .btn-sound:hover { background: #4F46E5; color: white; transform: scale(1.1); }
     </style>
 </head>
 <body>
@@ -122,14 +125,25 @@
         <div class="container test-container" style="display: flex; flex-direction: column; align-items: center;">
             <div class="student-turn" id="current-student-name">Student 1</div>
             
-            <div class="flashcard" id="flashcard">
-                <div style="position: relative; width: 100%;">
-                    <!-- Nút Loa -->
-                    <div id="btn-speak" style="position: absolute; top: -50px; right: -20px; font-size: 40px; cursor: pointer;" title="Nghe phát âm tiếng Anh">🔊</div>
-                    
-                    <div id="word-en">Word</div>
-                    <div id="word-vi" class="vi-meaning">Meaning</div>
+            <!-- Bọc Flashcard và Nút Loa vào một Flexbox để xếp ngang nhau -->
+            <div style="display: flex; align-items: center; justify-content: center; gap: 30px; width: 100%;">
+                
+                <div class="flashcard" id="flashcard">
+                    <div>
+                        <div id="word-en">Word</div>
+                        <div id="word-vi" class="vi-meaning">Meaning</div>
+                    </div>
                 </div>
+
+                <!-- Nút Loa SVG xịn xò & Nằm ngoài -->
+                <button id="btn-speak" class="btn-sound" title="Nghe phát âm">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                    </svg>
+                </button>
+                
             </div>
 
             <div class="controls">
