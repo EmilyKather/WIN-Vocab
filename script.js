@@ -45,6 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Sự kiện nút bấm Test
     document.getElementById('btn-start').addEventListener('click', startTest);
     document.getElementById('flashcard').addEventListener('click', flipCard);
+    
+    // Bắt sự kiện click vào nút loa
+    document.getElementById('btn-speak').addEventListener('click', (e) => {
+        e.stopPropagation(); // Lệnh này giúp khi bấm vào loa sẽ không bị lật thẻ (flip card)
+        speakWord();
+    });
+
     document.getElementById('btn-correct').addEventListener('click', () => markAnswer(true));
     document.getElementById('btn-wrong').addEventListener('click', () => markAnswer(false));
     document.getElementById('btn-skip').addEventListener('click', skipWord);
@@ -344,4 +351,17 @@ function removeStudent(index) {
 function endTest() {
     document.getElementById('setup-view').style.display = 'block';
     document.getElementById('test-view-container').style.display = 'none';
+}
+// --- TÍNH NĂNG ĐỌC TỪ VỰNG (WEB SPEECH API) ---
+function speakWord() {
+    if (!currentWord || !currentWord.en) return;
+    
+    // Hủy các giọng đọc cũ đang chờ để tránh bị dội âm nếu bấm liên tục
+    window.speechSynthesis.cancel();
+    
+    let utterance = new SpeechSynthesisUtterance(currentWord.en);
+    utterance.lang = 'en-US'; // Giọng tiếng Anh (Mỹ)
+    utterance.rate = 0.9;     // Tốc độ đọc (1.0 là bình thường, 0.9 chậm lại một chút cho dễ nghe)
+    
+    window.speechSynthesis.speak(utterance);
 }
