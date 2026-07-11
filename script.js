@@ -260,6 +260,7 @@ function startTest() {
     document.getElementById('test-view-container').style.display = 'block';
     
     currentStudentIndex = 0;
+    actionHistory = []; // Reset lịch sử mỗi lần bắt đầu test mới
     updateDashboard();
     nextTurn();
 }
@@ -334,6 +335,44 @@ function markAnswer(isCorrect) {
     updateDashboard();
     currentStudentIndex = (currentStudentIndex + 1) % students.length;
     nextTurn();
+}
+
+// --- TÍNH NĂNG NÚT BACK (QUAY LẠI TỪ VỪA CHẤM) ---
+function goBack() {
+    if (actionHistory.length === 0) {
+        alert("Không có từ vựng nào trước đó để quay lại!");
+        return;
+    }
+
+    // 1. Trả từ hiện tại (từ chưa test) lại vào rổ để lần sau test tiếp
+    if (currentWord) {
+        availableWords.push(currentWord);
+    }
+
+    // 2. Lấy hành động gần nhất từ lịch sử ra
+    let lastAction = actionHistory.pop();
+    
+    // 3. Khôi phục từ vựng và lượt của học sinh đó
+    currentWord = lastAction.word;
+    currentStudentIndex = lastAction.studentIndex;
+
+    // 4. Nếu trước đó là chấm Đúng/Sai thì phải TRỪ ĐIỂM đi
+    if (lastAction.action !== 'skip') {
+        let student = students[currentStudentIndex];
+        student.testedWords--;
+        if (lastAction.action === 'correct') {
+            student.correct--;
+        } else if (lastAction.action === 'wrong') {
+            student.incorrect--;
+        }
+    }
+
+    // 5. Cập nhật lại toàn bộ giao diện
+    updateDashboard();
+    document.getElementById('current-student-name').innerText = students[currentStudentIndex].name;
+    document.getElementById('word-en').innerText = currentWord.en;
+    document.getElementById('word-vi').innerText = currentWord.vi;
+    document.getElementById('word-vi').style.display = 'none';
 }
 
 function updateDashboard() {
