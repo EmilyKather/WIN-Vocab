@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         speakWord();
     });
 
-   // LẮNG NGHE PHÍM TẮT ĐIỀU HƯỚNG
+  // LẮNG NGHE PHÍM TẮT ĐIỀU HƯỚNG
     document.addEventListener('keydown', (e) => {
         if (document.getElementById('test-view-container').style.display === 'block') {
             if (['Space', ' ', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key) || e.code === 'Space') {
@@ -72,17 +72,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     markAnswer(true); // Space lần 2: Đạt
                 }
             }
-            else if (e.key === 'ArrowRight') {
-                markAnswer(true); // Mũi tên Phải: Đạt
+            else if (e.key === 'ArrowRight' || e.key === 'ArrowUp') {
+                markAnswer(true); // Mũi tên Phải hoặc Lên: Đạt
             }
             else if (e.key === 'ArrowDown') {
-                markAnswer(false); // Mũi tên Xuống: Cần ôn tập
+                markAnswer(false); // Mũi tên Xuống: Cần ôn tập (Sai)
             }
             else if (e.key === 'ArrowLeft') {
                 goBack(); // Mũi tên Trái: Hoàn tác
-            }
-            else if (e.key === 'ArrowUp') {
-                if (currentUserRole === 'teacher') skipWord(); // Mũi tên Lên: Bỏ qua (Chỉ Teacher)
             }
         }
     });
@@ -136,8 +133,8 @@ function parseData(rawData, sourceName) {
         if (!line) continue;
 
         let upperLine = line.toUpperCase();
-        // CẬP NHẬT: Quét các bài có chữ DAY, READING hoặc PART (cho bài Listening)
-        if (/^(DAY|READING|PART)\s+\d+/i.test(line)) {
+        // CẬP NHẬT: Quét các bài có chữ DAY, READING, PART hoặc ETS
+        if (/^(DAY|READING|PART|ETS)\s+\d+/i.test(line)) {
             currentLesson = line;
             // Lưu vào danh sách thứ tự bài
             if (!lessonOrder.find(l => l.name === currentLesson && l.source === sourceName)) {
