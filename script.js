@@ -204,7 +204,7 @@ function updateDynamicLabel() {
     if (!maxWordsLabel) return; // Đề phòng HTML chưa load xong
 
     if (select.options.length === 0) {
-        maxWordsLabel.innerText = `(Tối đa: 0 từ)`;
+        maxWordsLabel.innerText = `(Max: 0)`;
         return;
     }
 
@@ -220,7 +220,7 @@ function updateDynamicLabel() {
         else return wordLessonIndex <= selectedIndex; 
     });
 
-    maxWordsLabel.innerText = `(Tối đa: ${tempEligibleWords.length} từ)`;
+    maxWordsLabel.innerText = `(Max: ${tempEligibleWords.length})`;
 }
 // SHUFFLE FUNCTION (No duplicates)
 function shuffleArray(array) {
