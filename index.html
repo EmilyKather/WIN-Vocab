@@ -124,7 +124,7 @@
         <div class="form-group">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                 <label class="setting-label" id="lbl-words" style="margin-bottom: 0;">Số từ vựng muốn kiểm:</label>
-                <span id="max-words-info" style="color: #EF4444; font-weight: bold; font-size: 18px;">(Tối đa: 0 từ)</span>
+                <span id="max-words-info" style="color: #EF4444; font-weight: bold; font-size: 18px;">(Max: 0)</span>
             </div>
             <input type="number" id="words-per-student" value="50" min="1">
         </div>
@@ -143,7 +143,7 @@
             <!-- Nút hướng dẫn ? -->
             <div class="tooltip-container">
                 <span class="tooltip-icon">?</span>
-                <span class="tooltip-text"><b>Mẹo dùng phím tắt:</b><br><b>Space:</b> Lật thẻ / Chọn Đạt.<br><b>Mũi tên Lên:</b> Chọn Đạt.<br><b>Mũi tên Xuống:</b> Cần ôn tập (Sai).<br><b>Mũi tên Trái:</b> Quay lại thẻ trước.</span>
+                <span class="tooltip-text" style="text-align: left; line-height: 1.8;"><b>Các phím tắt:</b><br><b>Phím cách:</b> Hiện nghĩa/qua từ kế tiếp<br><b>↓:</b> Đánh dấu là chưa nhớ (xíu nữa ôn lại)<br><b>←:</b> Quay lại từ trước<br><b>→:</b> Qua từ tiếp theo</span>
             </div>
             
             <!-- Khung bọc (Sửa lại để Flashcard nằm đúng trọng tâm) -->
@@ -178,8 +178,8 @@
             <div id="revision-container" style="display: none; text-align: center; margin-top: 20px; width: 100%;">
                 <h3 id="revision-summary" style="font-size: 24px; color: #374151; margin-bottom: 20px;"></h3>
                 <div style="display: flex; gap: 20px; justify-content: center;">
-                    <button id="btn-revision" onclick="startRevision()" style="background: transparent; border: 2px solid #F59E0B; color: #000; font-size: 22px; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-weight: bold;">🔄 ÔN TỪ CHƯA ĐẠT</button>
-                    <button id="btn-restart-all" onclick="restartAll()" style="background: transparent; border: 2px solid #3B82F6; color: #000; font-size: 22px; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-weight: bold;">🔁 ÔN LẠI TOÀN BỘ</button>
+                    <button id="btn-revision" onclick="startRevision()" style="background: transparent; border: none; color: #000; font-size: 22px; padding: 15px 30px; cursor: pointer; font-weight: bold;">🔄 ÔN TỪ CHƯA ĐẠT</button>
+                    <button id="btn-restart-all" onclick="restartAll()" style="background: transparent; border: none; color: #000; font-size: 22px; padding: 15px 30px; cursor: pointer; font-weight: bold;">🔁 ÔN LẠI TOÀN BỘ</button>
                 </div>
             </div>
         </div>
