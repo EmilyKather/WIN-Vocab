@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('src-homework').addEventListener('change', updateDropdown);
     // Khi chọn bài học khác
     document.getElementById('test-lesson').addEventListener('change', updateDynamicLabel);
+    // Khi click chọn checkbox "Chỉ kiểm tra bài này"
+    document.getElementById('test-only-current').addEventListener('change', updateDynamicLabel);
 
     // Sự kiện nút bấm Test
     document.getElementById('btn-start').addEventListener('click', startTest);
@@ -185,7 +187,7 @@ function updateDropdown() {
     updateDynamicLabel(); // Đổi label cho khớp với Option đầu tiên hiện ra
 }
 
-// Đổi chữ "Chỉ kiểm tra bài..." tự động (Sửa thành Tiếng Việt theo yêu cầu)
+// Đổi chữ "Chỉ kiểm tra bài..." tự động và CẬP NHẬT SỐ MAX TỪ VỰNG
 function updateDynamicLabel() {
     let select = document.getElementById('test-lesson');
     let label = document.getElementById('lbl-only-current');
@@ -196,8 +198,33 @@ function updateDynamicLabel() {
     } else {
         label.innerText = `Chỉ kiểm tra bài học này (Không mix bài cũ)`;
     }
-}
 
+    // TÍNH TOÁN SỐ TỪ VỰNG TỐI ĐA CHO HIỂN THỊ UI
+    let showQuizlet = document.getElementById('src-quizlet').checked;
+    let showHomework = document.getElementById('src-homework').checked;
+    let maxWordsLabel = document.getElementById('max-words-info');
+    
+    if (!maxWordsLabel) return; // Đề phòng HTML chưa load xong
+
+    if (select.options.length === 0) {
+        maxWordsLabel.innerText = `(Tối đa: 0 từ)`;
+        return;
+    }
+
+    let selectedIndex = parseInt(select.value);
+    let testOnlyCurrent = document.getElementById('test-only-current').checked;
+    
+    let tempEligibleWords = vocabDB.filter(v => {
+        let wordLessonIndex = lessonOrder.findIndex(l => l.name === v.lesson && l.source === v.source);
+        let isSourceActive = (v.source === 'Quizlet' && showQuizlet) || (v.source === 'Homework' && showHomework);
+        if (!isSourceActive) return false;
+
+        if (testOnlyCurrent) return wordLessonIndex === selectedIndex;
+        else return wordLessonIndex <= selectedIndex; 
+    });
+
+    maxWordsLabel.innerText = `(Tối đa: ${tempEligibleWords.length} từ)`;
+}
 // SHUFFLE FUNCTION (No duplicates)
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -337,6 +364,7 @@ function handleSessionEnd() {
             document.getElementById('revision-summary').innerHTML = `🏆 XUẤT SẮC! BẠN ĐẠT 100% TỪ VỰNG!<br><br>Đạt: <span style="color:#10B981">${passed}</span> | Cần ôn tập: 0`;
             document.getElementById('btn-revision').style.display = 'none';
         }
+        document.getElementById('btn-restart-all').style.display = 'inline-block'; // Luôn hiện nút Ôn Lại Toàn Bộ
     } else {
         alert("🎉 Finished! All students have completed their words or been removed.");
         endTest();
@@ -351,6 +379,28 @@ function startRevision() {
     currentWordCount = 1;
     revisionList = [];
     students[0].testedWords = 0;
+    
+    document.getElementById('revision-container').style.display = 'none';
+    document.getElementById('flashcard').style.display = 'flex';
+    document.querySelector('.controls').style.display = 'flex';
+    document.getElementById('btn-speak').style.display = 'flex';
+    nextTurn();
+}
+
+function restartAll() {
+    availableWords = [...eligibleWords]; // Lấy lại toản bộ từ vựng ban đầu của bài test
+    shuffleArray(availableWords);
+    
+    totalSessionWords = Math.min(eligibleWords.length, parseInt(document.getElementById('words-per-student').value));
+    maxWordsPerStudent = totalSessionWords;
+    currentWordCount = 1;
+    revisionList = [];
+    
+    students[0].testedWords = 0;
+    students[0].correct = 0;
+    students[0].incorrect = 0;
+    
+    updateDashboard(); // Reset lại bảng điểm
     
     document.getElementById('revision-container').style.display = 'none';
     document.getElementById('flashcard').style.display = 'flex';
