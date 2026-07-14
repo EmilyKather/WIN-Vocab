@@ -8,6 +8,9 @@ let currentWord = null;
 let maxWordsPerStudent = 50;
 let currentUserRole = null; // Biến lưu trữ vai trò (teacher/student)
 let actionHistory = []; // Biến lưu lịch sử để làm nút BACK
+let revisionList = []; // Danh sách từ cần ôn tập (Mũi tên Xuống)
+let totalSessionWords = 0; // Tổng số từ trong phiên học
+let currentWordCount = 1; // Vị trí thẻ hiện tại
 
 document.addEventListener('DOMContentLoaded', () => {
     // 0. GẮN SỰ KIỆN CHO MÀN HÌNH CHỌN VAI TRÒ VÀ NÚT SIGN OUT
@@ -52,23 +55,32 @@ document.addEventListener('DOMContentLoaded', () => {
         speakWord();
     });
 
-    // LẮNG NGHE PHÍM CÁCH (SPACE)
+   // LẮNG NGHE PHÍM TẮT ĐIỀU HƯỚNG
     document.addEventListener('keydown', (e) => {
-        // Chỉ chạy khi màn hình Test đang hiện
         if (document.getElementById('test-view-container').style.display === 'block') {
+            if (['Space', ' ', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key) || e.code === 'Space') {
+                e.preventDefault();
+            }
+
             if (e.code === 'Space' || e.key === ' ') {
-                e.preventDefault(); // Chặn hành vi tự động cuộn trang web xuống
-                
                 let meaningDiv = document.getElementById('word-vi');
-                // Nếu thẻ đang úp (chưa hiện nghĩa) -> Bấm lần 1
                 if (meaningDiv.style.display === 'none' || meaningDiv.style.display === '') {
-                    flipCard();
-                    speakWord(); // Tự động đọc
-                } 
-                // Nếu thẻ đã lật (hiện nghĩa rồi) -> Bấm lần 2
-                else {
-                    markAnswer(true); // Tự động chấm CORRECT
+                    flipCard(); speakWord();
+                } else {
+                    markAnswer(true); // Space lần 2: Đạt
                 }
+            }
+            else if (e.key === 'ArrowRight') {
+                markAnswer(true); // Mũi tên Phải: Đạt
+            }
+            else if (e.key === 'ArrowDown') {
+                markAnswer(false); // Mũi tên Xuống: Cần ôn tập
+            }
+            else if (e.key === 'ArrowLeft') {
+                goBack(); // Mũi tên Trái: Hoàn tác
+            }
+            else if (e.key === 'ArrowUp') {
+                if (currentUserRole === 'teacher') skipWord(); // Mũi tên Lên: Bỏ qua (Chỉ Teacher)
             }
         }
     });
@@ -259,8 +271,18 @@ function startTest() {
     document.getElementById('setup-view').style.display = 'none';
     document.getElementById('test-view-container').style.display = 'block';
     
+    document.getElementById('flashcard').style.display = 'flex';
+    document.querySelector('.controls').style.display = 'flex';
+    document.getElementById('btn-speak').style.display = 'flex';
+    document.getElementById('revision-container').style.display = 'none';
+
     currentStudentIndex = 0;
-    actionHistory = []; // Reset lịch sử mỗi lần bắt đầu test mới
+    actionHistory = []; 
+    revisionList = [];
+    currentWordCount = 1;
+    totalSessionWords = Math.min(availableWords.length, numStudents * maxWordsPerStudent);
+    if(currentUserRole === 'student') totalSessionWords = Math.min(availableWords.length, maxWordsPerStudent);
+
     updateDashboard();
     nextTurn();
 }
@@ -268,32 +290,73 @@ function startTest() {
 function nextTurn() {
     let activeStudents = students.filter(s => s.isActive && s.testedWords < maxWordsPerStudent);
     
-    if (activeStudents.length === 0) {
-        alert("🎉 Finished! All students have completed their words or been removed.");
+    if (activeStudents.length === 0 || availableWords.length === 0) {
+        handleSessionEnd();
         return;
     }
 
     let found = false;
     for(let i=0; i < students.length; i++) {
         if(students[currentStudentIndex].isActive && students[currentStudentIndex].testedWords < maxWordsPerStudent) {
-            found = true;
-            break;
+            found = true; break;
         }
         currentStudentIndex = (currentStudentIndex + 1) % students.length;
     }
 
     let student = students[currentStudentIndex];
     document.getElementById('current-student-name').innerText = student.name;
-
-    if (availableWords.length === 0) {
-        availableWords = [...eligibleWords];
-        shuffleArray(availableWords);
-    }
     currentWord = availableWords.pop();
+
+    let tracker = document.getElementById('progress-tracker');
+    if (currentUserRole === 'student') {
+        tracker.innerText = `Từ vựng: ${currentWordCount} / ${totalSessionWords}`;
+        tracker.style.display = 'block';
+    } else {
+        tracker.style.display = 'none';
+    }
 
     document.getElementById('word-en').innerText = currentWord.en;
     document.getElementById('word-vi').innerText = currentWord.vi;
     document.getElementById('word-vi').style.display = 'none';
+}
+
+function handleSessionEnd() {
+    if (currentUserRole === 'student') {
+        let passed = totalSessionWords - revisionList.length;
+        document.getElementById('flashcard').style.display = 'none';
+        document.querySelector('.controls').style.display = 'none';
+        document.getElementById('btn-speak').style.display = 'none';
+        document.getElementById('progress-tracker').style.display = 'none';
+        document.getElementById('current-student-name').innerText = "KẾT QUẢ PHIÊN HỌC";
+        document.getElementById('revision-container').style.display = 'block';
+        
+        if (revisionList.length > 0) {
+            document.getElementById('revision-summary').innerHTML = `Đạt: <span style="color:#10B981; font-weight:bold;">${passed}</span> | Cần ôn tập: <span style="color:#EF4444; font-weight:bold;">${revisionList.length}</span>`;
+            document.getElementById('btn-revision').style.display = 'inline-block';
+        } else {
+            document.getElementById('revision-summary').innerHTML = `🏆 XUẤT SẮC! BẠN ĐẠT 100% TỪ VỰNG!<br><br>Đạt: <span style="color:#10B981">${passed}</span> | Cần ôn tập: 0`;
+            document.getElementById('btn-revision').style.display = 'none';
+        }
+    } else {
+        alert("🎉 Finished! All students have completed their words or been removed.");
+        endTest();
+    }
+}
+
+function startRevision() {
+    availableWords = [...revisionList];
+    shuffleArray(availableWords);
+    totalSessionWords = revisionList.length;
+    maxWordsPerStudent = totalSessionWords;
+    currentWordCount = 1;
+    revisionList = [];
+    students[0].testedWords = 0;
+    
+    document.getElementById('revision-container').style.display = 'none';
+    document.getElementById('flashcard').style.display = 'flex';
+    document.querySelector('.controls').style.display = 'flex';
+    document.getElementById('btn-speak').style.display = 'flex';
+    nextTurn();
 }
 
 function flipCard() {
@@ -302,14 +365,8 @@ function flipCard() {
 
 function skipWord() {
     if(!currentWord) return;
-    
-    // Lưu vào lịch sử trước khi đổi từ
     actionHistory.push({ word: currentWord, studentIndex: currentStudentIndex, action: 'skip' });
-
-    if (availableWords.length === 0) {
-        availableWords = [...eligibleWords];
-        shuffleArray(availableWords);
-    }
+    if (availableWords.length === 0) { handleSessionEnd(); return; }
     
     currentWord = availableWords.pop();
     document.getElementById('word-en').innerText = currentWord.en;
@@ -319,20 +376,18 @@ function skipWord() {
 
 function markAnswer(isCorrect) {
     if(!currentWord) return;
-    
-    // Lưu vào lịch sử trước khi qua từ
     actionHistory.push({ word: currentWord, studentIndex: currentStudentIndex, action: isCorrect ? 'correct' : 'wrong' });
 
+    if (!isCorrect && currentUserRole === 'student') revisionList.push(currentWord);
+
     let student = students[currentStudentIndex];
-
-    if (isCorrect) {
-        student.correct++;
-    } else {
-        student.incorrect++;
-    }
+    if (isCorrect) student.correct++;
+    else student.incorrect++;
+    
     student.testedWords++;
-
+    currentWordCount++;
     updateDashboard();
+    currentWord = null;
     currentStudentIndex = (currentStudentIndex + 1) % students.length;
     nextTurn();
 }
@@ -358,17 +413,22 @@ function goBack() {
 
     // 4. Nếu trước đó là chấm Đúng/Sai thì phải TRỪ ĐIỂM đi
     if (lastAction.action !== 'skip') {
+        currentWordCount--; // Lùi biến đếm UI
         let student = students[currentStudentIndex];
         student.testedWords--;
         if (lastAction.action === 'correct') {
             student.correct--;
         } else if (lastAction.action === 'wrong') {
             student.incorrect--;
+            if (currentUserRole === 'student') revisionList.pop(); // Rút từ khỏi danh sách ôn tập
         }
     }
 
     // 5. Cập nhật lại toàn bộ giao diện
     updateDashboard();
+    if (currentUserRole === 'student') {
+        document.getElementById('progress-tracker').innerText = `Từ vựng: ${currentWordCount} / ${totalSessionWords}`;
+    }
     document.getElementById('current-student-name').innerText = students[currentStudentIndex].name;
     document.getElementById('word-en').innerText = currentWord.en;
     document.getElementById('word-vi').innerText = currentWord.vi;
