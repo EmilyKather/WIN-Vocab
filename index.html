@@ -134,6 +134,9 @@
         <div class="container test-container" style="display: flex; flex-direction: column; align-items: center;">
             <div class="student-turn" id="current-student-name">Student 1</div>
             
+            <!-- BỘ ĐẾM TIẾN ĐỘ CHO HỌC VIÊN -->
+            <div id="progress-tracker" style="font-size: 18px; color: #6B7280; font-weight: bold; margin-bottom: 20px; display: none;">Từ vựng: 0 / 0</div>
+
             <!-- Nút hướng dẫn ? -->
             <div class="tooltip-container">
                 <span class="tooltip-icon">?</span>
@@ -166,6 +169,12 @@
                 <button id="btn-back" class="btn-back">BACK</button>
                 <button id="btn-skip" class="btn-skip">SKIP</button>
                 <button id="btn-wrong" class="btn-wrong">WRONG</button>
+            </div>
+            
+            <!-- KHU VỰC ÔN TẬP BỊ ẨN, CHỈ HIỆN KHI KẾT THÚC PHIÊN -->
+            <div id="revision-container" style="display: none; text-align: center; margin-top: 20px; width: 100%;">
+                <h3 id="revision-summary" style="font-size: 24px; color: #374151; margin-bottom: 20px;"></h3>
+                <button id="btn-revision" onclick="startRevision()" style="background: #F59E0B; font-size: 22px; padding: 15px 30px; border-radius: 8px; border: none; color: white; cursor: pointer; box-shadow: 0 4px 6px rgba(245, 158, 11, 0.3); font-weight: bold;">🔄 ÔN TẬP TỪ CHƯA ĐẠT</button>
             </div>
         </div>
 
