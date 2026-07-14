@@ -395,7 +395,6 @@ function markAnswer(isCorrect) {
 // --- TÍNH NĂNG NÚT BACK (QUAY LẠI TỪ VỪA CHẤM) ---
 function goBack() {
     if (actionHistory.length === 0) {
-        alert("Không có từ vựng nào trước đó để quay lại!");
         return;
     }
 
