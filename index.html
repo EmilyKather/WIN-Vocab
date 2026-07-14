@@ -89,7 +89,7 @@
             System loaded: <span id="total-words-count" style="font-size: 28px; color: #1E1B4B;">0</span> words ready!
         </div>
 
-        <h2>Test Settings</h2>
+        <h2>Settings</h2>
 
         <!-- Nguồn từ vựng -->
         <div class="source-container">
@@ -122,11 +122,14 @@
         </div>
         
         <div class="form-group">
-            <label class="setting-label" id="lbl-words">Số từ vựng muốn kiểm: <span id="max-words-info" style="color: #EF4444; font-weight: bold; font-size: 18px; margin-left: 10px;">(Max: 0)</span></label>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <label class="setting-label" id="lbl-words" style="margin-bottom: 0;">Số từ vựng muốn kiểm:</label>
+                <span id="max-words-info" style="color: #EF4444; font-weight: bold; font-size: 18px;">(Tối đa: 0 từ)</span>
+            </div>
             <input type="number" id="words-per-student" value="50" min="1">
         </div>
         
-        <button id="btn-start" style="font-size: 26px; padding: 20px; margin-top: 10px; background: #2563EB;">START TESTING</button>
+        <button id="btn-start" style="font-size: 26px; padding: 20px; margin-top: 10px; background: #2563EB;">ÔN TẬP</button>
     </div>
 
     <!-- SCREEN 2: TESTING & DASHBOARD -->
@@ -140,7 +143,7 @@
             <!-- Nút hướng dẫn ? -->
             <div class="tooltip-container">
                 <span class="tooltip-icon">?</span>
-                <span class="tooltip-text"><b>Mẹo dùng phím tắt:</b><br>Nhấn <b>Phím Cách (Space)</b> lần 1 để hiện nghĩa & nghe phát âm.<br>Nhấn lần 2 để chọn đúng và qua từ tiếp theo.</span>
+                <span class="tooltip-text"><b>Mẹo dùng phím tắt:</b><br><b>Space:</b> Lật thẻ / Chọn Đạt.<br><b>Mũi tên Lên:</b> Chọn Đạt.<br><b>Mũi tên Xuống:</b> Cần ôn tập (Sai).<br><b>Mũi tên Trái:</b> Quay lại thẻ trước.</span>
             </div>
             
             <!-- Khung bọc (Sửa lại để Flashcard nằm đúng trọng tâm) -->
@@ -175,8 +178,8 @@
             <div id="revision-container" style="display: none; text-align: center; margin-top: 20px; width: 100%;">
                 <h3 id="revision-summary" style="font-size: 24px; color: #374151; margin-bottom: 20px;"></h3>
                 <div style="display: flex; gap: 20px; justify-content: center;">
-                    <button id="btn-revision" onclick="startRevision()" style="background: #F59E0B; font-size: 22px; padding: 15px 30px; border-radius: 8px; border: none; color: white; cursor: pointer; box-shadow: 0 4px 6px rgba(245, 158, 11, 0.3); font-weight: bold;">🔄 ÔN TỪ CHƯA ĐẠT</button>
-                    <button id="btn-restart-all" onclick="restartAll()" style="background: #3B82F6; font-size: 22px; padding: 15px 30px; border-radius: 8px; border: none; color: white; cursor: pointer; box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3); font-weight: bold;">🔁 ÔN LẠI TOÀN BỘ</button>
+                    <button id="btn-revision" onclick="startRevision()" style="background: transparent; border: 2px solid #F59E0B; color: #000; font-size: 22px; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-weight: bold;">🔄 ÔN TỪ CHƯA ĐẠT</button>
+                    <button id="btn-restart-all" onclick="restartAll()" style="background: transparent; border: 2px solid #3B82F6; color: #000; font-size: 22px; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-weight: bold;">🔁 ÔN LẠI TOÀN BỘ</button>
                 </div>
             </div>
         </div>
