@@ -72,8 +72,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     markAnswer(true); // Space lần 2: Đạt
                 }
             }
-            else if (e.key === 'ArrowRight' || e.key === 'ArrowUp') {
-                markAnswer(true); // Mũi tên Phải hoặc Lên: Đạt
+            else if (e.key === 'ArrowRight') {
+                markAnswer(true); // Mũi tên Phải: Đạt
+            }
+            else if (e.key === 'ArrowUp') {
+                skipWord(); // Mũi tên Lên: Bỏ qua (Không tính lượt, không đổi người)
             }
             else if (e.key === 'ArrowDown') {
                 markAnswer(false); // Mũi tên Xuống: Cần ôn tập (Sai)
