@@ -5113,4 +5113,920 @@ permit (n) - giấy phép
 engineer (n) - kỹ sư
 technician (n) - kỹ thuật viên
 manual (n) - sách hướng dẫn
+ETS 2024 TEST 01 LISTENING
+wipe off (v) - lau chùi
+throw away (v) - vứt đi, ném đi cái gì
+shovel (n/v) - cái xẻng/ xúc cái gì
+scattered (a) - nằm vươn vãi
+suspend (v) - đình chỉ / suspend from (treo từ)
+light fixture (n) - đèn cố định
+do for a living - làm để kiếm sống
+corridor = hallway (n) - hành lang
+blender (n) - máy xay sinh tố
+prototype (n) - nguyên mẫu, vật mẫu đầu tiên
+bouquet (n) - bó hoa
+nominate (v) - đề cử
+carpool program (n) - chương trình đi chung xe (để giảm lượng phương tiện giao thông)
+instructor (n) - người hướng dẫn
+peach (n) - quả đào
+calculate (v) - tính toán
+reimbursement = refund (n) - sự hoàn tiền
+accommodation = lodging (n) - chỗ ở
+deck (n) - boong tàu
+fog (n) - sương mù
+terrace (n) - sân thượng, sân hiên (ngoài trời)
+stamp (n/v) - con dấu, đóng dấu
+under construction - đang được xây dựng
+under renovation (n) - đang được nâng cấp, cải tạo
+concentrate on sth = focus on sth (v) - tập trung vào cái gì
+ingredient (n) - nguyên liệu, thành phần (nấu ăn)
+investigation (n) - cuộc điều tra
+hospitality industry (n) - ngành du lịch - khách sạn
+consumer (n) - người tiêu dùng
+job description (n) - mô tả công việc
+be about to Vo - sắp sửa làm gì
+get/have a flat tire - bị xẹp lốp xe
+career path (n) - con đường sự nghiệp
+that's a relief! - thật là nhẹ nhõm!
+lid (n) - cái nắp
+supply chain (n) - chuỗi cung ứng
+adjacent to = next to = near = beside (prep) - kế bên, bên cạnh
+election ballot (n) - lá phiếu bầu cử
+trowel (n) - cái bay (dùng để xây nhà)
+crowbar (n) - cái xà beng
+episode (n) - tập, phần (phim)
+lecture (n) - bài giảng
+stand (n) - quầy hàng
+archaeologist (n) - nhà khảo cổ học
+ruin (n) - di tích, tàn tích
+ETS 2024 TEST 01 READING
+domestic flight (n) - chuyến bay nội địa
+tasty = delicious (a) - ngon
+tile (n) - gạch lót sàn / ngói nhà
+dress code (n) - quy định về trang phục
+enthusiastic (a) - nhiệt tình, hăng hái
+wheel (n) - bánh xe
+brake (n) - cái phanh xe
+delivery (n) - sự giao hàng
+authority (n) - quyền, quyền lực
+prohibit = ban (v) - cấm, ngăn cấm
+greenhouse gas emissions (n) - khí thải nhà kính
+costume = attire (n) - trang phục
+temporarily (adv) - một cách tạm thời
+accidentally (adv) - vô tình, không cố ý
+standard (n) - tiêu chuẩn
+scheduling conflict (n) - xung đột lịch trình
+collaboration = cooperation (n) - sự cộng tác, phối hợp
+in light of = because of (prep) - bởi vì
+supplemental (a) - bổ sung, thêm vào
+eco-friendly = environmentally friendly (a) - thân thiện với môi trường
+pollutant (n) - chất ô nhiễm
+drainage (n) - sự thoát nước
+exhibit = exhibition = expo = exposition (n) - cuộc triễn lãm
+social media (n) - mạng xã hội
+auction (n) - cuộc đấu giá
+attention (n) - sự chú ý
+proposal (n) - sự đề xuất, bảng đề xuất
+innovation (n) - sự đổi mới, sáng tạo
+criticism (n) - sự chỉ trích, phê bình
+flexibility (n) - sự linh hoạt
+privilege (n) - đặc quyền, đặc ân
+failure to + Vo - thất bại trong việc làm gì
+professional = specialist = expert (n) - chuyên gia
+stand out (v) - làm nổi bật, khác biệt
+In deed (adv) - thật vậy (dùng để nhấn mạnh một điều đã nói phía trước)
+screwdriver (n) - tua vít
+screw (n) - đinh vít
+component (n) - thành phần
+surface (n) - bề mặt
+perk = benefit (n) - phúc lợi (chính sách cho nhân viên như tiền thưởng, đi nghỉ mát,...)
+job seeker (n) - người đang tìm việc
+a fraction of sth - một phần của cái gì
+judge (v) - đánh giá
+ETS 2024 TEST 02 LISTENING
+cord = wire (n) - dây điện
+outlet = electrical outlet (n) - ổ cắm điện
+discard = dispose (v) - vứt bỏ, loại bỏ
+rolling chair (n) - ghế lăn, ghế có bánh xe
+chop = cut = slice (v) - cắt, thái (cái gì)
+escalator (n) - thang cuốn
+seashore = seaside = coast (n) - bờ biển
+water pump (n) - máy bơm nước
+wallpaper (n) - giấy dán tường
+pattern (n) - mẫu, hoa văn, họa tiết
+binder = folder (n) - bìa hồ sơ
+storm (n) - cơn bão
+behind schedule - chậm tiến độ, trễ hạn
+machinery (n) - máy móc
+captain (n) - đội trưởng, thuyền trưởng
+lift weight (v) - nâng tạ, cử tạ
+restoration (n) - sự khôi phục, phục hồi
+chain of bookstores = bookstore chain (n) - chuỗi tiệm sách
+informal meeting (n) - cuộc gặp thân mật
+mandatory = compulsory (a) - bắt buộc
+casual = informal (a) - bình thường (không trang trọng)
+experiment (n) - cuộc thí nghiệm
+personal trainer (n) - huấn luyện viên cá nhân (PT)
+athlete (n) - vận động viên
+initiative (n) - sáng kiến
+mangrove (n) - rừng ngập mặn
+threat (n) - sự đe dọa, mối đe dọa
+drone (n) - máy bay không người lái
+public awareness (n) - sự nhận thức cộng đồng
+preliminary (a) - sơ bộ, ban đầu
+keep track of sth - theo dõi cái gì
+warehouse inventory (n) - hàng tồn kho
+irrigation system (n) - hệ thống tưới tiêu, thủy lợi
+electric car (n) - xe điện
+loyal customer (n) - khách hàng trung thành, thân thiết
+physical therapy (n) - vật lý trị liệu
+dependable = reliable = trustworthy (a) - đáng tin cậy
+executive chef (n) - bếp trưởng
+metropolitan area (n) - khu vực đô thị, vùng đô thị
+opposition (n) - sự phản đối
+politician (n) - chính trị gia
+messy >< neat (a) - bừa bộn >< gọn gàng
+collaborate with (v) - hợp tác với
+vegetarian (n) - người ăn chay
+ETS 2024 TEST 02 READING
+cable (n) - dây cáp
+charge (v) (n) - (v) tính phí/ sạc ; (n) phí
+electricity (n) - điện
+resign from (phrasal verb) - từ chức khỏi vị trí gì
+combine with (v) - kết hợp với
+significantly = remarkably = substantially = considerably = dramatically (adv) - một cách đáng kể
+fabric (n) - vải
+pattern (n) - hoa văn, kiểu mẫu
+degree (n) - bằng cấp / độ (nhiệt độ)
+evaluate = assess = appraise (v) - đánh giá
+relative (a) (n) - (a) có liên quan / (n) bà con, họ hàng
+reimbursement = refund (n) - sự hoàn tiền
+patron (n) - khách quen (khách thường xuyên lui tới)
+double check (v) - kiểm tra lại (kiểm tra 2 lần)
+associate with something (v) - liên kết với cái gì
+keynote speech (n) - bài phát biểu chính
+weight (n) - tạ đơn
+according to something - theo cái gì
+accomplishment = achievement (n) - thành tựu
+honor (v) (n) - (n) vinh dự / (v) tôn vinh
+appliance = equipment = device (n) - thiết bị
+peace of mind - sự an tâm
+quote = quotation = cost estimate (n) - bảng ước tính giá
+backed by something - được bảo chứng bởi cái gì
+nonetheless = nevertheless = however (adv) - tuy nhiên
+furthermore = moreover (adv) - hơn thế nữa
+enact (v) - ban hành
+vary (v) - thay đổi, biến đổi
+possibility (n) - khả năng (có thể xảy ra)
+exclusively = monopoly (adv) - một cách độc quyền
+affordable/ reasonable price (n) - giá cả phải chăng, hợp lý
+stand out (phr) - nổi bật, khác biệt
+entrepreneur (n) - doanh nhân, chủ doanh nghiệp
+webinar = seminar = workshop (n) - hội thảo
+workforce (n) - lực lượng lao động
+out of stock (phr) - hết hàng
+tailor (n)(v) - (n) thợ may / (v) điều chỉnh, tùy chỉnh
+facilitator (n) - người hỗ trợ, hướng dẫn
+credential = certificate = certification (n) - giấy chứng nhận, chứng chỉ
+recipient (n) - người nhận
+adapt (v) - thích nghi
+work remotely - làm việc từ xa
+identical (a) - giống nhau
+consult with somebody - tư vấn, tham khảo với ai
+downside = drawback = weakness (n) - nhược điểm, điểm yếu
+ETS 2024 TEST 03 LISTENING
+towel (n) - khăn tắm
+lay out (v) - sắp đặt, bố trí
+spill (v) - làm tràn, làm đổ
+under construction - đang được xây dựng
+ladder (n) - cái thang
+discard = dispose (v) - vứt bỏ
+flour (n) - bột mì
+vegetarian (n) - người ăn chay
+annual checkup (n) - buổi kiểm tra sức khỏe hàng năm
+ink cartridge (n) - hộp mực in
+power button (n) - nút nguồn
+car dealership (n) - đại lý ô tô
+harvest festival (n) - lễ hội thu hoạch
+production figures (n) - số liệu sản xuất
+aisle seat (n) - ghế ngồi gần lối đi
+journalist = reporter (n) - nhà báo, phóng viên
+turnout (n) - số lượng người tham gia một sự kiện gì đó
+depart >< arrive (v) - khởi hành >< đến
+escalator (n) - thang cuốn
+track (n) - đường ray (xe lửa)
+bicycle rack (n) - giá đỡ xe đạp
+lightweight (a) - nhẹ
+safety inspection (n) - đợt kiểm tra an toàn
+company retreat = company picnic (n) - chuyến dã ngoại của công ty
+pineapples (n) - quả dứa (quả thơm)
+wear off (v) - mất dần, tan biến
+novelty (n) - sự mới lạ
+glitch (n) - trục trặc, lỗi
+go over (v) - kiểm tra, xem xét
+resonable/affordable prices (n) - giá cả phải chăng
+dedication (n) - sự cống hiến
+break sth down (v) - phân tích, chia nhỏ cái gì
+loyalty (n) - lòng trung thành
+relieve (v) - làm dịu đi, giải tỏa
+potted plant (n) - cây trồng trong chậu
+underground (a) - dưới mặt đất, ngầm
+elect (v) - bầu cử, bầu chọn
+traffic congestion = traffic jam (n) - sự tắc nghẽn giao thông
+tunnel (n) - đường hầm
+entrepreneur (n) - chủ doanh nghiệp, doanh nhân
+slugish (a) - chậm chạp
+concourse (n) - phòng chờ, khu vực chờ (sân bay, nhà ga)
+ticket windows (n) - quầy bán vé
+baggage = luggage (n) - hành lý
+ETS 2024 TEST 03 READING
+expand = extend (v) - mở rộng
+enforce (v) - thi hành
+portfolio (n) - hồ sơ cá nhân / danh mục đầu tư
+deep discount (n) - giảm giá sâu
+reservation = booking (n) - sự đặt chỗ trước
+roots (n) - rễ cây
+avoid (v) - tránh
+name tag (n) - bảng tên
+extended warranty (n) - bảo hành mở rộng
+impressive (a) - ấn tượng
+sincerely (adv) - một cách chân thành
+deservedly (adv) - một cách xứng đáng
+accidentally (adv) - tình cờ, ngẫu nhiên
+politely (adv) - một cách lịch sự
+profoundly (adv) - một cách sâu sắc
+alternatively (adv) - một cách thay thế
+fragile equipment (n) - thiết bị dễ vỡ
+convention = conference (n) - hội nghị
+claim that (v) - tuyên bố, khẳng định rằng
+associate = employee = staff = personnel (n) - nhân viên
+follow = comply with = abide by = obey = adhere to (v) - tuân thủ, tuân theo
+ambitious (a) - tham vọng
+duplication = replication (n) - sự sao chép
+turnover = revenue (n) - doanh thu
+relocate (v) - chuyển địa điểm
+authentic = real (a) - thật, chính hãng
+direction (n) - phương hướng/ sự hướng dẫn
+surge (n) - sự gia tăng
+owing to = because of = due to = given (prep) - bởi vì
+strategy = tactic (n) - chiến lược
+practice (n) - sự thực hành/ phòng khám
+mentor (n/v) - (n) người cố vấn / (v) cố vấn
+original = initial (a) - ban đầu, đầu tiên
+specialize/specialise in something (phrasal verb) - chuyên về cái gì
+enhance (v) - nâng cao
+supplemental (a) - bổ sung, phụ thêm vào
+consult with somebody (phrasal verb) - tư vấn, tham khảo với ai
+vending machine (n) - máy bán hàng tự động
+mission (n) - sứ mệnh, nhiệm vụ
+soft drinks (n) - nước ngọt
+on hand = available (a) - có sẵn
+absence (n) - sự vắng mặt
+permit (n) - sự cho phép / giấy phép
+run out of something - hết cái gì đó
+distraction (n) - sự sao nhãng, phân tâm
+bankruptcy (n) - sự phá sản
+librarian (n) - thủ thư, người quản lý thư viện
+correspond with (phrasal verb) - tương ứng với
+approach (n/v) - (n) cách tiếp cận / (v) tiến lại gần
+accommodate (v) - đáp ứng
+accommodation = lodging (n) - chỗ ở
+ETS 2024 TEST 04 LISTENING
+liquid (n) - chất lỏng
+iron (n/v) - bàn ủi/ ủi (quần áo)
+jar (n) - cái lọ, hũ
+wipe off = clean (v) - lau chùi, dọn dẹp
+float (v) - nổi (trên mặt nước)
+lighthouse (n) - ngọn hải đăng
+fireplace (n) - lò sưởi
+couch = sofa (n) - ghế sofa
+pasta (n) - mì ống, nui
+socks (n) - tất, vớ
+pursue a career (v) - theo đuổi một công việc (sự nghiệp)
+suspend (v) - trì hoãn, đình chỉ
+marine (a) - thuộc về biển, hàng hải
+ferry terminal (n) - bến phà
+understaffed = short-handed (a) - thiếu người, thiếu nhân lực
+title (n) - tiêu đề
+librarian (n) - người thủ thư (giữ sách trong thư viện)
+price quote (n) - bảng báo giá
+coat of paint (n) - lớp sơn (tường, nhà)
+treadmill (n) - máy chạy bộ
+figure out = find out = determine (v) - xác định, tìm ra cái gì
+carpenter (n) - thợ mộc
+perhaps (adv) - có lẽ, có thể
+exhibit = exhibition = expo = exposition (n) - cuộc triễn lãm
+intact (a) - nguyên vẹn
+shingle (n) - ván lợp, mái lợp (mái nhà)
+take some measurements (n) - thực hiện đo đạc
+assumption (n) - giả định
+clientele (n) - tệp khách hàng
+department store = grocery store (n) - cửa hàng tạp hóa
+distract (v) - làm sao lãng
+kayak (n) - thuyền kayak
+archaeologist (n) - nhà khảo cổ học
+excavation (n) - sự khai quật
+thunderstorms (n) - giông bão
+castle (n) - lâu đài
+accessible >< inaccessible (a) - có thể truy cập >< không thể truy cập
+exclusive (a) - độc quyền
+carpool (n) - đi chung xe
+statue (n) - bức tượng
+elaborate (a) - phức tạp, tỉ mỉ
+straightforward (a) - đơn giản, dễ hiểu
+ETS 2024 TEST 04 READING
+serve (v) - phục vụ
+server (n) - nhân viên phục vụ / máy chủ
+revision = alteration = adjustment = modification (n) - sự điều chỉnh, chỉnh sửa
+regulation (n) - quy định
+distance (n) - khoảng cách
+remedy (n) - phương thuốc / biện pháp khắc phục
+checking account (n) - tài khoản thanh toán
+saving account (n) - tài khoản tiết kiệm
+feature (n/v) - (n) tính năng, đặc điểm / (v) miêu tả, trình bày, thể hiện
+respectively (adv) - một cách tương ứng
+noticeably (adv) - đáng chú ý
+manuscript = sketch = draft (n) - bản phác thảo
+ambitious (a) - tham vọng
+takeover = acquisition (n) - sự mua lại, thâu tóm
+rival = competitor (n) - đối thủ cạnh tranh
+streamline (v) - sắp xếp, hợp lý hóa
+caculator (n) - máy tính cầm tay
+actively (adv) - một cách chủ động, tích cực
+potential = prospective (a) - tiềm năng, triển vọng
+be eligible for = be qualified for - đủ điều kiện cho cái gì
+slightly = somewhat (adv) - hơi hơi, chút chút
+prior = previous = former (a) - trước đây
+experiment (n) - thử nghiệm, thí nghiệm
+platform (n) - nền tảng / sân ga
+contingent on/upon something - phụ thuộc vào cái gì
+apparel = clothing = clothes = garment (n) - quần áo
+controversy (n) - sự tranh cãi
+freeze (v) - đóng băng / đơ máy tính
+examine = check = inspect (v) - kiểm tra, xem xét
+expert = specialist = professional (n) - chuyên gia, người có chuyên môn
+occupy (v) - chiếm, sử dụng cái gì
+alternative (n) - sự thay thế
+discard = dispose = get rid of (v) - vứt bỏ
+substitute (n/v) - (n) sự thay thế / (v) thay thế
+range (n) - phạm vi
+landfill (n) - bãi rác
+snacks = treats = refreshments (n) - thức ăn vặt, đồ ăn nhẹ
+biscuit (n) - bánh quy
+decade (n) - thập kỷ (10 năm)
+be eager to Vo - háo hức để làm gì
+get in touch = contact = reach out (v) - liên hệ với ai
+reward point (n) - điểm thưởng
+redeem (v) - đổi (điểm), chuộc lại cái gì
+expedited shipping (n) - giao hàng cấp tốc
+chapter (n) - chương (sách) / chi nhánh
+complexity (n) - sự phức tạp
+vary (v) - thay đổi, biến đổi
+ETS 2024 TEST 05 LISTENING
+tie the laces (v) - buộc dây giày
+tunnel (n) - đường hầm
+kitchen cupboard (n) - tủ bếp
+kneel (v) - quỳ gối
+solution (n) - giải pháp
+lumber (n) - gỗ xẻ
+out of stock - hết hàng trong kho
+high-rise building (n) - tòa nhà cao tầng
+assembly plant/factory (n) - nhà máy lắp ráp
+a dozen - một tá, nhiều
+charging station (n) - trạm sạc
+building permit = construction permit (n) - giấy phép xây dựng
+storage room = warehouse = stock room (n) - nhà kho
+panel discussion (n) - cuộc thảo luận nhóm
+expiration date (n) - ngày hết hạn
+protective clothing (n) - quần áo bảo hộ
+conductor (n) - người soát vé/ nhạc trưởng
+point out (v) - chỉ ra
+coordinator (n) - điều phối viên
+involvement (n) - sự tham gia
+resignation (n) - sự từ chức
+rebate = discount (n) - sự giảm giá
+mentor (n) - người hướng dẫn, người cố vấn
+expedited shipping - giao hàng nhanh, cấp tốc
+estate (n) - bất động sản
+debris (n) - mảnh vụn
+botanical garden (n) - vườn bách thảo, vườn thực vật
+ordinary (a) - thông thường, bình thường
+flight attendant (n) - tiếp viên hàng không
+retrieve (v) - lấy lại/khôi phục lại
+repurpose (v) - tái sử dụng
+landfill (n) - bãi rác
+marine life (n) - sự sống ở biển
+reassurance (n) - sự đảm bảo, sự cam đoan, trấn an
+settle into sth - quen với cái gì, ổn định (sau khi chuyển chỗ)
+take advantage of sth - tận dụng lợi thế của cái gì
+step = phase = stage (n) - giai đoạn
+handout = flyer = brochure = booklet = pamphlet (n) - tờ rơi (quảng cáo)
+ETS 2024 TEST 05 READING
+approve (v) - chấp thuận, phê duyệt
+reach (v) - với tới/ liên hệ/ tiếp cận
+let sb do sth - để cho ai làm việc gì
+method (n) - phương pháp, cách thức
+closure (n) - sự đóng cửa
+technique (n) - kỹ thuật
+circumstance (n) - điều kiện, hoàn cảnh, tình huống
+considerable = substantial = remarkable = significant = dramatic (a) - đáng kể
+permanently (adv) - một cách lâu dài, vĩnh viễn
+promptly = immediately (adv) - ngay lập tức
+equally = evenly (adv) - công bằng, bình đẳng, ngang nhau
+gradually (adv) - dần dần
+acquisition (n) - sự thu mua, thâu tóm
+capital letter (n) - ký tự viết hoa
+influence (v) - ảnh hưởng, tác động
+retain (v) - giữ lại
+procedure (n) - quy trình, thủ tục
+familiarize with (v) - làm cho quen thuộc với cái gì
+deposit (n) - tiền đặt cọc / tiền gửi
+celebration (n) - lễ kỷ niệm
+quite/rather + ADJ - khá như thế nào
+impressive (a) - ấn tượng
+multiple (a) - nhiều, đa dạng
+generously (adv) - một cách hào phóng
+reception = banquet (n) - tiệc chiêu đãi
+imitate (v) - bắt chước
+chain (n) - chuỗi
+under construction (n) - đang xây dựng
+appointment (n) - cuộc hẹn / sự bổ nhiệm
+filter (n) - bộ lọc
+dishwasher (n) - máy rửa chén
+screw (n/v) - (n) đinh vít / (v) vặn, xoay
+tightly >< loosely - chặt chẽ >< lỏng lẻo
+be committed to Ving - cam kết làm gì đó
+policy (n) - chính sách
+memo = memorandum (n) - thông báo nội bộ
+safety measures (n) - biện pháp an toàn
+risk (n) - rủi ro
+scams (n) - lừa đảo
+accommodate (v) - đáp ứng
+mattress (n) - cái nệm
+interest (n) - lãi suất / sự quan tâm
+acknowledge (v) - thừa nhận
+binder = folder (n) - bìa hồ sơ
+disturb = interrupt = disrupt (v) - làm gián đoạn, làm phiền
+ETS 2024 TEST 06 LISTENING
+stick (n) - cây gậy
+cap (n) - mũ lưỡi trai
+trolley = cart (n) - xe đẩy
+scrub (v) - lau chùi, cọ rửa
+bucket (n) - cái xô
+pedestrian bridge (n) - cầu cho người đi bộ
+pasta (n) - món mì ống, mì ý
+tablecloth (n) - khăn trải bàn
+bulletin board (n) - bảng thông báo
+lawn mower (n) - máy cắt cỏ
+decor (n) - trang trí
+alphabetical order (n) - thứ tự bảng chữ cái ABC
+autograph session (n) - buổi kí tặng
+audition (n) - buổi (vòng) thử giọng
+lease (n) - hợp đồng thuê
+renewable energy sources - nguồn năng lượng tái tạo
+walk-in customer (n) - khánh vãng lai (khách đến mà không báo trước)
+implement = carry out (v) - tiến hành, thực hiện
+fertilizer (n) - phân bón
+bowling league (n) - giải đấu bowling
+bowling alley (n) - sân chơi bowling
+election (n) - cuộc bầu cử
+element (n) - yếu tố, thành phần
+iconic symbol (n) - biểu tượng
+charity auction (n) - cuộc đấu giá từ thiện
+grant = subsidy = allowance (n) - tiền trợ cấp
+kiosk (n) - quầy, ki-ốt (bán hàng, bán vé,...)
+drone (n) - máy bay không người lái
+safety precaution (n) - biện pháp an toàn
+debate (n) - cuộc tranh luận
+amateur (a) - nghiệp dư (người mới bắt đầu)
+clogged (a) - bị tắc, nghẽn (ống cống)
+enroll in = register for = sign up (v) - đăng ký
+garbage = trash = rubbish (n) - rác thải, phế liệu
+shredder (n) - máy hủy tài liệu
+make up for something - đền bù, bồi thường cho cái gì
+integrate (v) - tích hợp
+theme = topic = subject (n) - chủ đề
+water pipe (n) - đường ống nước
+burst (v) - nổ, vỡ (ống nước)
+ETS 2024 TEST 06 READING
+base on something - dựa vào cái gì
+projection (n) - sự dự báo
+heater (n) - máy sưởi
+switch = change (v) - chuyển đổi
+committee = council = commission (n) - hội đồng, ủy ban
+nominate (v) - đề cử
+nomination (n) - sự đề cử
+enrollment = registration (n) - sự đăng ký
+advise somebody to Vo - khuyên ai đó làm gì
+advise somebody something - thông báo cho ai cái gì
+clearly = obviously (adv) - một cách rõ ràng
+secretly (adv) - một cách bí mật
+inclement weather = bad weather = severe weather (n) - thời tiết xấu, thời tiết bất lợi
+motivate (v) - thúc đẩy
+reinforce (v) - củng cố
+exclusively = solely = monopoly (adv) - độc quyền, duy nhất
+resign from (v) - từ chức khỏi vị trí gì
+routinely = habitually (adv) - một cách thường xuyên, đều đặn
+risk (n/v) - rủi ro
+form (n/v) - (n) biểu mẫu / (v) hình thành, thành lập
+tenant >< landlord (n) - người thuê nhà >< chủ nhà
+considerable = remarkable = substantial = significant = dramatic (a) - đáng kể
+somewhat = slightly (adv) - hơi hơi, chút chút
+harmful (a) - có hại, độc hại
+shape (n) - hình dáng
+round (n) - hình tròn
+square (n) - hình vuông / quảng trường
+oval (n) - hình bầu dục
+portion = part (n) - phần, đoạn, khúc
+whether A or B - liệu rằng A hay B
+overcome (v) - vượt qua
+tailor (n/v) - (n) thợ may / (v) điều chỉnh (cho phù hợp)
+technique (n) - kỹ thuật
+residence (n) - nơi cư trú
+thermometer (n) - nhiệt kế
+placement (n) - vị trí
+bacteria (n) - vi khuẩn
+typically (adv) - thông thường
+initiate = commence = start (v) - bắt đầu, khởi động
+proof = evidence (n) - bằng chứng, chứng cứ
+planner (n) - nhà hoạch định, quy hoạch
+preserve = conserve (v) - bảo tồn, giữ gìn
+interact with (v) - tương tác với
+interactive (a) - có tính tương tác
+narrative (n) - bài tường thuật
+election (n) - cuộc bầu cử
+ETS 2024 TEST 07 LISTENING
+balcony (n) - ban công
+lawn (n) - bãi cỏ
+city square (n) - quảng trường thành phố
+invitation (n) - thiệp mời, lời mời
+switch (n) - (n) công tắc; (v) chuyển đổi
+coordinator (n) - điều phối viên
+company gathering (n) - cuộc tụ tập công ty
+loading dock (n) - bến tàu chất hàng
+heater (n) - máy sưởi
+recipe (n) - công thức nấu ăn
+mobile app (application) (n) - ứng dụng di động (app)
+have a flat tire (n) - bị thủng lốp xe
+librarian (n) - người thủ thư (người coi thư viện)
+mail carrier (n) - người đưa thư
+put together (v) - tập hợp, soạn thảo
+preserve (n) - khu bảo tồn; (v) bảo tồn
+postal worker (n) - nhân viên bưu điện
+takeout (n) - đồ ăn mang đi
+densely (adv) - một cách dày đặt
+remotely (adv) - từ xa, xa xôi
+wheelchair (n) - xe lăn
+navigate (v) - điều hướng, định hướng (di chuyển)
+rumor (n) - tin đồn
+exclusive (a) - độc quyền
+bid (n) - đấu thầu
+entrepreneur (n) - doanh nhân, chủ doanh nghiệp
+career/job fair (n) - hội chợ việc làm
+cereal (n) - ngũ cốc
+satellite (n) - vệ tinh
+interruption (n) - sự gián đoạn
+melt (v) - làm tan chảy (băng)
+brainstorming (n) - động não (để nghĩ ra giải pháp)
+usher (n) - người chỉ chỗ ngồi (trong nhà hát, rạp phim)
+conserve energy - bảo tồn năng lượng
+leadership (n) - sự lãnh đạo
+lumber (n) - gỗ
+oversize (a) - quá khổ, quá cỡ
+parade (n) - cuộc diễu hành
+weather forecast (n) - dự báo thời tiết
+ETS 2024 TEST 07 READING
+boarding pass = boarding ticket (n) - vé đi tàu, máy bay
+luggage = baggage (n) - hành lý
+crew = team = fleet = group (n) - đội, nhóm, đoàn
+expertise (n) - chuyên môn
+expert (n) (a) - (n) chuyên gia / (a) có chuyên môn
+seldom = rarely (adv) - hiếm khi
+executive (n) - nhân viên cấp cao
+counsel = advise (v) - khuyên, tư vấn
+measure (n) - biện pháp / sự đo lường
+sales figures (n) - doanh số bán hàng
+impose (v) - áp đặt
+encourage (v) - khuyến khích
+aside from = apart from = except for - ngoài (ra), ngoại trừ
+pickup truck (n) - xe bán tải
+eagerly (adv) - một cách háo hức
+broaden (v) - mở rộng
+precious (a) - quý giá
+accurate = precise = correct = exact (a) - chính xác
+intersection (n) - giao lộ (ngã ba, ngã tư)
+pedestrian (n) - người đi bộ
+refrain from (v) - kiềm chế làm gì
+initiative (n) - sáng kiến
+fertilizer (n) - phân bón
+recognition (n) - sự công nhận
+in accordance with - phù hợp với
+dedication (n) - sự cống hiến
+repetitious (a) - lặp đi lặp lại
+exclusive = sole (a) - độc quyền, duy nhất
+coordinator (n) - nhân viên điều phối
+credential = certification = certificate (n) - giấy chứng nhận, chứng chỉ
+herb (n) - cây thảo mộc
+route (n) - tuyến đường / lộ trình
+underway (a) - đang tiến hành
+planet (n) - hành tinh
+planetarium (n) - cung thiên văn
+stairwell = staircase = stariway = stairs (n) - cầu thang
+cuisine (n) - ẩm thực
+appetizer (n) - món khai vị
+malfunction = failure = glitch = breakdown (n) - sự cố, lỗi kỹ thuật
+confuse about something - bối rối về cái gì
+register for = enroll in = sign up (for) - đăng ký cái gì
+expedited shipping = rush shipping - giao hàng cấp tốc
+handcrafted = crafted = manual (a) - được làm bằng tay (thủ công)
+skillful (a) - khéo léo
+durable = long-lasting (a) - lâu bền
+generation (n) - thế hệ, đời
+stability (n) - sự ổn định
+market volatility (n) - sự biến động thị trường
+moderate (v) (a) - (v) làm giảm bớt ; (a) vừa phải
+reputation (n) - danh tiếng
+ETS 2024 TEST 08 LISTENING
+rowing a boat - chèo thuyền
+necktie (n) - cà vạt
+wheelbarrow (n) - xe cút kít
+telephone wire (n) - dây điện thoại
+suspend over (v) - treo lơ lửng trên (cái gì)
+acquisition (n) - sự thu mua, thâu tóm
+dishwasher (n) - máy rửa bát
+pantry (n) - tủ đựng đồ ăn (trong bếp)
+printer cartridge (n) - hộp mực in
+prototype (n) - nguyên mẫu, vật mẫu đầu tiên
+microscope (n) - kính hiển vi
+storage room = warehouse = stockroom (n) - nhà kho
+harvest season (n) - mùa thu hoạch
+straightforward (a) - đơn giản, dễ hiểu
+clipboard (n) - bìa kẹp hồ sơ
+resistant to sth - chống lại cái gì
+insect (n) - côn trùng
+bloom (v) - nở (hoa)
+platform (n) - nền tảng/sân ga
+certification = certificate = credential (n) - giấy chứng nhận, chứng chỉ
+reference (n) - sự tham khảo/ thư giới thiệu
+initiative (n) - sáng kiến
+understaffed (a) - thiếu nhân viên
+potential/prospective customer (n) - khách hàng tiềm năng
+asphalt (n) - nhựa đường
+plumber (n) - thợ sửa ống nước
+consultation (n) - sự tư vấn
+soap (n) - xà bông cục
+snowfall (n) - tuyết rơi
+wristwatch (n) - đồng hồ đeo tay
+antique = ancient (a) - cổ xưa, cổ đại
+inception = establishment = foundation (n) - sự thành lập
+optimism (n) - sự lạc quan
+pavement = sidewalk (n) - vỉa hè
+workstation = workplace (n) - nơi làm việc
+incentive (program) (n) - chương trình khuyến khích
+recruitment (n) - sự tuyển dụng
+sustainable (a) - bền vững, ổn định
+practice (n) - phương pháp/sự thực hành
+ETS 2024 TEST 08 READING
+store (n/v) - (n) cửu hàng / (v) lưu trữ
+neatly (adv) - một cách ngăn nắp, gọn gàng
+prevent from (v) - ngăn ngừa khỏi cái gì
+stir (v) - khuấy
+bid (n) - cuộc đấu thầu
+submit = file = turn in (v) - nộp
+garment = apparel = clothing = clothes (n) - quần áo
+portion = part (n) - phần, đoạn, khúc
+aware of something - nhận thức về điều gì
+concise = brief (a) - ngắn gọn, xúc tích
+discard = dispose = throw away = eliminate = get rid of (v) - vứt bỏ, loại bỏ
+typically = normally = generally (adv) - thông thường
+closely (adv) - gần gũi / kỹ lưỡng
+guarantee (v) - đảm bảo
+invest in (v) - đầu tư vào
+so that = in order that + S + V - để mà (liên từ)
+as if + S + V - như thể mà (liên từ)
+numerous = various = multiple (a) - nhiều, đa dạng
+rarely = seldom = hardly ever (adv) - hiếm khi
+effective = go into effect = valid - có hiệu lực từ ngày nào
+focus group (n) - nhóm khảo sát (nhóm lấy ý kiến về sản phẩm mới)
+formula (n) - công thức
+administrative assistant (n) - trợ lý hành chính
+competent (a) - có năng lực
+roast (v) - quay, nướng, rang
+keep up with demand - theo kịp nhu cầu
+meet the demand/ need - đáp ứng nhu cầu
+smoothly (adv) - một cách mượt mà, trôi chảy
+routine (n) - thói quen
+acquire (v) - mua lại (công ty) / đạt được, có được cái gì
+stakeholder (n) - các bên liên quan
+signature = autograph (n) - chữ ký
+reward program (n) - chương trình thưởng (dành cho khách hàng)
+overlook (v) - nhìn ra hướng
+seaside = seashore = coast (n) - bờ biển
+interaction (n) - sự tương tác
+magnet (n) - nam châm
+enhancement = improvement (n) - sự cải tiến, cải thiện
+utility (n) - tiện ích
+water pipe (n) - ống nước
+prerequisite (n) - điều kiện tiên quyết
+refrain from (Ving) - kiềm chế làm gì
+procedure (n) - quy trình, thủ tục
+malfunction = failure = breakdown = glitch (n) - lỗi, sự cố
+goggles (n) - mắt kính bảo hộ
+reach (out) = contact (v) - liên hệ ai đó
+waterproof (a) - chống nước, không thấm nước
+wholesale price >< retail price - giá bán sỉ >< giá bán lẻ
+insulation material (n) - vật liệu cách nhiệt / cách điện
+table of contents (n) - mục lục
+permit (n/v) - (n) giấy phép; (v) cấp phép
+ETS 2024 TEST 09 LISTENING
+doorknob = handle (n) - tay nắm cửa
+light fixture (n) - đèn cố định
+flowerpot (n) - chậu hoa
+safety goggles (n) - kính bảo hộ
+reporter = journalist (n) - phóng viên, nhà báo
+light bulb (n) - bóng đèn
+paper plate (n) - đĩa giấy
+square kilometers (n) - ki-lô-mét vuông
+sweater (n) - áo len
+briefcase (n) - cặp hồ sơ, cặp tài liệu
+briefing (n) - cuộc họp (giao ban)
+cousin (n) - anh (em) họ
+handheld scanner (n) - máy quét mã cầm tay
+interior >< exterior (a) - nội thất >< ngoại thất
+lumber (n) - gỗ
+reusable (a) - có thể tái sử dụng
+column (n) - cột / chuyên mục (trên báo)
+reinforce (v) - củng cố, tăng cường
+caculation (n) - sự tính toán
+take over = take on = assume (v) - đảm nhận, đảm nhiệm cái gì
+lawyer = attorney (n) - luật sư
+keyboard (n) - bàn phím
+advocate (v) - ủng hộ, biện hộ cho cái gì
+bid (n) - cuộc đấu thầu
+demolition = destroy (n) - sự phá hủy
+skyscraper (n) - tòa nhà trọc trời
+environmentally friendly (a) - thân thiện với môi trường
+nature preserve (n) - khu bảo tồn thiên nhiên
+tractor (n) - máy kéo
+wheelbarrow (n) - xe cút kít , xe rùa
+linen (n) - khăn trải giường
+laundry facility (n) - cơ sở giặt ủi
+paperback >< hardcover (n) - sách bìa mềm >< sách bìa cứng
+wrap up (v) - hoàn thành cái gì / gói quà
+strive to Vo - nỗ lực, cố gắng để làm gì
+tearoom (n) - phòng trà
+capable (a) - có khả năng
+peak season (n) - mùa cao điểm
+baggage handler (n) - nhân viên xử lý hành lý
+incentive program (n) - chương trình khuyến khích
+belongings (n) - đồ đạc cá nhân
+election (n) - cuộc bầu cử
+firehouse (n) - trạm cứu hỏa
+debate (n) - cuộc tranh luận
+ETS 2024 TEST 09 READING
+dispute (n/v) - tranh cãi, bất đồng
+maintain (v) - duy trì, bảo trì
+childhood (n) - thời thơ ấu
+outcome (n) - kết quả, thành quả
+correction (n) - sự chỉnh sửa, sự sửa lỗi
+skillfully (adv) - một cách khéo léo, thành thạo
+primarily = mainly (adv) - chính, chủ yếu
+obviously = clearly (adv) - một cách rõ ràng
+status (n) - trạng thái, tình trạng
+theory (n) - học thuyết, lý thuyết
+be accountable for = be responsible for - chịu trách nhiệm cho cái gì
+distinct = separate (a) - riêng biệt
+determine = find out = figure out (v) - xác định
+praise = comment = compliment sb on/for sth - khen ngợi ai đó về điều gì
+enthusiastic (a) - nhiệt tình, hăng hái
+negotiation (n) - sự đàm phán
+agent (n) - đại lý / người đại diện / nhân viên môi giới
+revolution (n) - cuộc cách mạng, sự thay đổi lớn
+intend to + Vo - có ý định làm gì
+sector = field = industry (n) - ngành
+strategy = tactic (n) - chiến lược, chiến thuật
+seamlessly (adv) - một cách liền mạch
+deliver/give/make/present a presentation - trình bày bài thuyết trình
+factually (adv) - một cách đúng sự thật
+critic (n) - nhà phê bình
+exclusive (adv) - độc quyền, duy nhất
+travelers' lounge (n) - phòng chờ của hành khách
+flight attendant (n) - tiếp viên hàng không
+absence >< presence (n) - sự vắng mặt >< sự hiện diện (có mặt)
+objective (n) (a) - (n) mục tiêu / (a) khách quan
+emission (n) - khí thải
+reach (v) - với tới / đạt tới / liên hệ
+professional = specialist = expert (n) - chuyên gia (người có chuyên môn)
+professor (n) - giáo sư
+instructor (n) - người hướng dẫn / huấn luyện viên
+bustling (a) - nhộn nhịp
+do a favor = give a hand = help out = assist (v) - hỗ trợ, giúp đỡ ai đó
+admire (v) - ngưỡng mộ
+continent (n) - lục địa, châu lục
+importer >< exporter (n) - nhà nhập khẩu >< nhà xuất khẩu
+container ship (n) - tàu chở hàng
+freight = cargo (n) - hàng hóa (vận chuyển trên các phương tiện giao thông)
+certificate program (n) - chương trình cấp chứng chỉ
+fabricate = produce = manufacture (v) - sản xuất
+machinist (n) - thợ máy
+head over (v) - đi đến đâu đó
+exceed = surpass = beyond - vượt quá cái gì
+initiative (n) - sáng kiến
+aviation (n) - ngành hàng không
+occupation = profession = career = job (n) - công việc
+testimonial (n) - lời chứng thực
+ETS 2024 TEST 10 LISTENING
+patio (n) - sân hiên, sân nhà
+storage cupboard (n) - tủ đựng đồ
+rake (n/v) - cái cào/ cào
+platter (n) - đĩa đựng đồ ăn
+crouch down (v) - cúi xuống, ngồi xổm
+awning (n) - mái che
+outdated (a) - bị lỗi thời
+cost projection (n) - dự toán chi phí
+surplus = excess (n) - sự dư thừa, thặng dư
+headset = headphone (n) - tai nghe
+general contractor (n) - tổng thầu
+appetizer (n) - món khai vị
+collaboration (n) - sự hợp tác
+customized (a) - tùy chỉnh (theo yêu cầu)
+go over (v) - kiểm tra, xem qua cái gì
+advertising strategy (n) - chiến lược quảng cáo
+security guard (n) - nhân viên bảo vệ
+vacuum cleaner (n) - máy hút bụi
+mentor (n/v) - người hướng dẫn/ hướng dẫn
+theory (n) - lý thuyết, học thuyết
+keynote speaker (n) - diễn giả chính
+knee (n) - đầu gối
+medicine = medication = drug (n) - thuốc, dược phẩm
+plumber (n) - thợ sửa ống nước
+counselor = advisor = consultant (n) - người tư vấn
+shift (n) - ca làm việc/ sự thay đổi
+nervous = anxious = worried (a) - lo lắng
+orchard (n) - vườn cây ăn quả
+clarify (v) - làm rõ
+pantry (n) - tủ đựng đồ ăn
+conservation = preservation (n) - sự bảo tồn
+park ranger (n) - kiểm lâm viên
+lawmaker (n) - người làm luật, nhà lập pháp
+artificial intelligence (n) - trí tuệ nhân tạo (AI)
+interactive (a) - có tính tương tác
+simulate (v) - mô phỏng
+come across (v) - gặp phải, bắt gặp
+liquid (n) - chất lỏng
+backpack (n) - ba lô
+promotional gift (n) - quà khuyến mãi
+strap (n) - dây đeo
+loan (n) - khoản vay
+ETS 2024 TEST 10 READING
+department head = head of the department (n) - trưởng phòng, trưởng bộ phận
+prohibit = ban = forbid (v) - cấm là gì
+strictly (adv) - một cách nghiêm ngặt
+follow = obey = comply with = ahhere to = abide by (v) - tuân thủ cái gì
+graduate (n/v) - (n) người mới tốt nghiệp; (v) tốt nghiệp
+leading (a) - hàng đầu
+behavior (n) - hành vi, cách cư xử
+fill the prescription - cấp phát thuốc theo đơn
+flower bed (n) - luống hoa
+scenic view - quang cảnh đẹp
+back up (v) - sao lưu dữ liệu
+store (n/v) - (n) cửa hàng; (v) lưu trữ
+inventory (n) - hàng tồn kho
+capacity (n) - sức chứa
+excess (a) - dư thừa, quá mức
+consist of = compose of - bao gồm cái gì
+oversee = supervise = monitor = observe (v) - giám sát, theo dõi
+impressive (a) - ấn tượng
+stress (n/v) - (n) sự căng thẳng; (v) nhấn mạnh
+authorization (n) - sự cho phép, ủy quyền
+represent (v) - đại diện cho cái gì
+refer to (something) - tham khảo cái gì
+supplement (n) - phần bổ sung
+directory (n) - danh bạ
+custodian = janitor (n) - lao công
+fast-paced environment (n) - môi trường làm việc có nhịp độ cao
+bachelor's degree (n) - bằng cử nhân
+value-added tax (n) - thuế giá trị gia tăng (VAT)
+filter (n) - bộ lọc
+province (n) - tỉnh, thành phố
+recognition (n) - sự công nhận
+slate to (+Vo) - dự kiến làm gì
+rely on (something) - phụ thuộc vào cái gì / dựa vào cái gì
+demolish = tear down (v) - phá hủy
+lighthouse (n) - ngọn hải đăng
+navigation (n) - sự định hướng (di chuyển)
+significance (n) - tầm quan trọng
+carry out = perform = conduct = implement (v) - tiến hành, thực hiện cái gì
+put together (v) - kết hợp, tập hợp lại
+tailor (n/v) - (n) thợ may / (v) điều chỉnh cho phù hợp
+installation (n) - sự lắp đặt
+infrastructure (n) - cơ sở hạ tầng
+novice = beginner = apprentice (n) - người mới học việc
+toiletries (n) - đồ dùng vệ sinh cá nhân (nói chung)
+e-commerce (n) - thương mại điện tử
+flock to (somewhere) - đổ xô đến đâu đó
+artificial (a) - nhân tạo
+brick-and-mortar = physical store (n) - cửa hàng vật lý
+merchant (n) - thương nhân
+engagement (n) - sự tương tác, gắn kết
 `;
